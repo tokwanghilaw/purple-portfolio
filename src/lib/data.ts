@@ -13,45 +13,52 @@ export interface Project {
 export const gameDevProjects: Project[] = [
   {
     id: 'gdp1',
-    title: 'Pixel Adventure Saga',
+    title: 'A Bangketa Story',
     description: 'A captivating retro-style platformer game featuring challenging levels, unique pixel art graphics, and an engaging storyline. Explore vast worlds and conquer mighty foes.',
     imageUrl: 'https://placehold.co/400x300.png',
     imageHint: 'pixel game',
-    liveLink: '#',
-    repoLink: '#',
+    videoLink: 'https://youtu.be/_hTlvJ-1Png?si=bjew5PqFfxPJ9RXJ',
+    repoLink: 'https://github.com/tokwanghilaw/A-Bangketa-Story',
     technologies: ['Unity', 'C#', 'Aseprite'],
   },
   {
     id: 'gdp2',
-    title: 'Cosmic Commander',
+    title: 'Corazon: Between Day & Dusk',
     description: 'Lead your fleet in this strategic space combat game. Manage resources, research technologies, and outmaneuver your opponents in epic interstellar battles.',
     imageUrl: 'https://placehold.co/400x300.png',
     imageHint: 'space strategy',
-    liveLink: '#',
-    repoLink: '#',
-    technologies: ['Godot', 'GDScript', 'Blender'],
+    repoLink: 'https://github.com/kaffw/Star-Guardians-FE',
+    technologies: ['Unity', 'C#', 'Aseprite'],
+  },
+  {
+    id: 'gdp3',
+    title: 'Sapling Sanctuary',
+    description: 'Lead your fleet in this strategic space combat game. Manage resources, research technologies, and outmaneuver your opponents in epic interstellar battles.',
+    imageUrl: 'https://placehold.co/400x300.png',
+    imageHint: 'space strategy',
+    repoLink: 'https://github.com/tokwanghilaw/SaplingSanctuary',
+    technologies: ['Unity', 'C#', 'Aseprite'],
   },
 ];
 
 export const uiUxDesigns: Project[] = [
   {
     id: 'uip1',
-    title: 'EcoFresh Mobile App',
+    title: 'NetProbe',
     description: 'A UI/UX design concept for a mobile application that connects users with local farmers for fresh produce delivery. Focused on intuitive navigation and a clean, inviting aesthetic.',
     imageUrl: 'https://placehold.co/400x300.png',
     imageHint: 'mobile app design',
     liveLink: '#',
-    repoLink: '#',
-    technologies: ['Figma', 'Adobe XD', 'User Research'],
+    technologies: ['Figma', 'User Research'],
   },
   {
     id: 'uip2',
-    title: 'Creative Agency Portfolio Site',
+    title: 'QR-Home',
     description: 'Redesign of a portfolio website for a creative agency, emphasizing visual storytelling, smooth animations, and a fully responsive layout to showcase their work.',
     imageUrl: 'https://placehold.co/400x300.png',
     imageHint: 'website design',
-    repoLink: '#',
-    technologies: ['Sketch', 'Principle', 'HTML/CSS'],
+    liveLink: '#',
+    technologies: ['Figma', 'User Research'],
   },
 ];
 
@@ -64,29 +71,19 @@ export const mobileDevProjects: Project[] = [
     imageHint: 'mobile productivity',
     liveLink: '#',
     repoLink: '#',
-    technologies: ['React Native', 'Firebase', 'Redux'],
-  },
-  {
-    id: 'mdp2',
-    title: 'City Guide Explorer',
-    description: 'An Android native application providing curated city guides, offline maps, and AR-based points of interest. Developed using Kotlin and Jetpack Compose.',
-    imageUrl: 'https://placehold.co/400x300.png',
-    imageHint: 'travel app',
-    repoLink: '#',
-    technologies: ['Kotlin', 'Jetpack Compose', 'Google Maps API'],
+    technologies: ['Flutter', 'Firebase'],
   },
 ];
 
 export const contactDetails = {
-  email: 'your.email@example.com',
-  phone: '+1 (555) 123-4567',
-  name: 'Your Name'
+  email: 'bnlabrador@gbox.adnu.edu.ph',
+  phone: '(+63) 947-558-1744',
+  name: 'Bianca Natalie M. Labrador'
 };
 
 export const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com/yourusername', icon: 'Github' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername', icon: 'Linkedin' },
-  { name: 'Instagram', url: 'https://instagram.com/yourusername', icon: 'Instagram' },
-  { name: 'Discord', url: 'https://discordapp.com/users/youruserid', icon: 'MessageSquare' }, // Using MessageSquare as a generic chat icon for Discord
-  { name: 'Twitter', url: 'https://twitter.com/yourusername', icon: 'Twitter' }, // Added Twitter back as it was in original footer
+  { name: 'GitHub', url: 'https://github.com/tokwanghilaw', icon: 'Github' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/in/bianca-natalie-labrador/', icon: 'Linkedin' },
+  { name: 'Instagram', url: 'https://instagram.com/bianca.wav', icon: 'Instagram' },
+  { name: 'Discord', url: 'https://discordapp.com/users/tokwanghilaw', icon: 'MessageSquare' }, // Using MessageSquare as a generic chat icon for Discord
 ];

@@ -47,7 +47,7 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
             <Briefcase className="h-7 w-7" />
-            <span className="font-headline">Profolio</span>
+            <span className="font-headline">Bianca's Portfolio</span>
           </Link>
 
           {/* Desktop Navigation */}

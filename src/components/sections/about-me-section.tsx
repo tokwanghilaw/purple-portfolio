@@ -14,7 +14,7 @@ export default function AboutMeSection({ id }: AboutMeSectionProps) {
           <div className="md:w-1/3 flex justify-center">
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl border-4 border-primary">
               <Image
-                src="https://placehold.co/256x256.png"
+                src="/home/user/studio/images/belly.png"
                 alt="Profile Picture"
                 data-ai-hint="profile person"
                 width={256}
@@ -29,10 +29,7 @@ export default function AboutMeSection({ id }: AboutMeSectionProps) {
               About Me
             </h2>
             <p className="text-lg text-foreground mb-4 leading-relaxed">
-              Hello! I&apos;m a passionate and creative developer with a strong interest in game development, UI/UX design, and mobile applications. I thrive on turning complex problems into elegant, user-friendly solutions.
-            </p>
-            <p className="text-lg text-foreground mb-6 leading-relaxed">
-              My journey in tech has been driven by a curiosity for new technologies and a desire to build impactful digital experiences. When I&apos;m not coding, you can find me exploring new game mechanics or sketching out design ideas.
+              Hello! I&apos;m Bianca Natalie M. Labrador, a Computer Science student at Ateneo de Naga University. I am a passionate and creative developer with a strong interest in game development, UI/UX design, and mobile applications.
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
                 <span className="inline-flex items-center bg-secondary text-secondary-foreground px-3 py-1.5 text-sm rounded-full shadow-sm">

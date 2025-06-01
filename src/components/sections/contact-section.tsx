@@ -4,15 +4,14 @@
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Github, Linkedin, Instagram, Mail, Phone, MessageSquare, Twitter } from 'lucide-react'; // Added Instagram, Phone, MessageSquare, Twitter
+import { Github, Linkedin, Instagram, Mail, Phone, MessageSquare,} from 'lucide-react'; // Added Instagram, Phone, MessageSquare, Twitter
 import { socialLinks, contactDetails } from '@/lib/data';
 
 const iconComponents: { [key: string]: React.ElementType } = {
   Github,
   Linkedin,
   Instagram,
-  MessageSquare, // For Discord
-  Twitter,
+  MessageSquare // For Discord
 };
 
 interface ContactSectionProps {
