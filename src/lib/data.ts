@@ -1,3 +1,4 @@
+
 export interface Project {
   id: string;
   title: string;
@@ -76,8 +77,16 @@ export const mobileDevProjects: Project[] = [
   },
 ];
 
+export const contactDetails = {
+  email: 'your.email@example.com',
+  phone: '+1 (555) 123-4567',
+  name: 'Your Name'
+};
+
 export const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com', icon: 'Github' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'Linkedin' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'Twitter' },
+  { name: 'GitHub', url: 'https://github.com/yourusername', icon: 'Github' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername', icon: 'Linkedin' },
+  { name: 'Instagram', url: 'https://instagram.com/yourusername', icon: 'Instagram' },
+  { name: 'Discord', url: 'https://discordapp.com/users/youruserid', icon: 'MessageSquare' }, // Using MessageSquare as a generic chat icon for Discord
+  { name: 'Twitter', url: 'https://twitter.com/yourusername', icon: 'Twitter' }, // Added Twitter back as it was in original footer
 ];

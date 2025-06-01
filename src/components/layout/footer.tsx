@@ -1,11 +1,14 @@
+
 import Link from 'next/link';
-import { Github, Linkedin, Twitter } from 'lucide-react';
-import { socialLinks } from '@/lib/data';
+import { Github, Linkedin, Twitter, Instagram, MessageSquare } from 'lucide-react'; // Added Instagram, MessageSquare
+import { socialLinks, contactDetails } from '@/lib/data';
 
 const iconComponents: { [key: string]: React.ElementType } = {
   Github,
   Linkedin,
   Twitter,
+  Instagram,
+  MessageSquare, // For Discord
 };
 
 
@@ -26,10 +29,10 @@ export default function Footer() {
           })}
         </div>
         <p className="text-sm">
-          &copy; {currentYear} Profolio. All rights reserved.
+          &copy; {currentYear} {contactDetails.name}. All rights reserved.
         </p>
          <p className="text-xs mt-2">
-          Designed with creativity by Your Name.
+          Designed with creativity by {contactDetails.name}.
         </p>
       </div>
     </footer>
