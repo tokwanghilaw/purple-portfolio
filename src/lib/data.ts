@@ -7,6 +7,8 @@ export interface Project {
   imageHint: string;
   liveLink?: string;
   repoLink?: string;
+  videoLink?: string;
+  figmaLink?: string;
   technologies: string[];
 }
 
@@ -15,7 +17,7 @@ export const gameDevProjects: Project[] = [
     id: 'gdp1',
     title: 'A Bangketa Story',
     description: 'A captivating retro-style platformer game featuring challenging levels, unique pixel art graphics, and an engaging storyline. Explore vast worlds and conquer mighty foes.',
-    imageUrl: 'https://placehold.co/400x300.png',
+    imageUrl: 'bangketa.png',
     imageHint: 'pixel game',
     videoLink: 'https://youtu.be/_hTlvJ-1Png?si=bjew5PqFfxPJ9RXJ',
     repoLink: 'https://github.com/tokwanghilaw/A-Bangketa-Story',
@@ -24,8 +26,8 @@ export const gameDevProjects: Project[] = [
   {
     id: 'gdp2',
     title: 'Corazon: Between Day & Dusk',
-    description: 'Lead your fleet in this strategic space combat game. Manage resources, research technologies, and outmaneuver your opponents in epic interstellar battles.',
-    imageUrl: 'https://placehold.co/400x300.png',
+    description: 'Corazon: Between Day and Dusk is a 2D-platformer stealth game inspired by Philippine folklore, following Corazon, a manananggal, who leads two lives. By day, she blends into the bustling city; by night, she hunts in the shadows, using her wits and stealth to survive.',
+    imageUrl: 'corazon.png',
     imageHint: 'space strategy',
     repoLink: 'https://github.com/kaffw/Star-Guardians-FE',
     technologies: ['Unity', 'C#', 'Aseprite'],
@@ -33,11 +35,11 @@ export const gameDevProjects: Project[] = [
   {
     id: 'gdp3',
     title: 'Sapling Sanctuary',
-    description: 'Lead your fleet in this strategic space combat game. Manage resources, research technologies, and outmaneuver your opponents in epic interstellar battles.',
-    imageUrl: 'https://placehold.co/400x300.png',
+    description: 'Sapling Sanctuary is a 2D platformer life-simulation survival game, set in a post-apocalyptic Philippines',
+    imageUrl: 'sapling.png',
     imageHint: 'space strategy',
     repoLink: 'https://github.com/tokwanghilaw/SaplingSanctuary',
-    technologies: ['Unity', 'C#', 'Aseprite'],
+    technologies: ['Unity', 'C#'],
   },
 ];
 
@@ -45,28 +47,28 @@ export const uiUxDesigns: Project[] = [
   {
     id: 'uip1',
     title: 'NetProbe',
-    description: 'A UI/UX design concept for a mobile application that connects users with local farmers for fresh produce delivery. Focused on intuitive navigation and a clean, inviting aesthetic.',
-    imageUrl: 'https://placehold.co/400x300.png',
+    description: 'A UI/UX design concept for a mobile application that visualizes the signal strength on nearby areas in the form of a heatmap. NetProbe is a project for our UI/UX Design course.',
+    imageUrl: 'netprobe.png',
     imageHint: 'mobile app design',
     liveLink: '#',
-    technologies: ['Figma', 'User Research'],
+    technologies: ['Figma', 'User Research', 'Mobile'],
   },
   {
     id: 'uip2',
     title: 'QR-Home',
-    description: 'Redesign of a portfolio website for a creative agency, emphasizing visual storytelling, smooth animations, and a fully responsive layout to showcase their work.',
-    imageUrl: 'https://placehold.co/400x300.png',
+    description: 'QR-Home is a StartUp concept and an ongoing project. It is a QR code-based tool that provides security for pets and owners, and provides a mobile database for veterinarians to lessen the use of paper-based databases.',
+    imageUrl: 'qrhome.png',
     imageHint: 'website design',
     liveLink: '#',
-    technologies: ['Figma', 'User Research'],
+    technologies: ['Figma', 'User Research', 'Web'],
   },
 ];
 
 export const mobileDevProjects: Project[] = [
   {
     id: 'mdp1',
-    title: 'QuickTask Manager',
-    description: 'A cross-platform mobile app for task management, built with React Native. Features include offline support, cloud sync, and customizable notifications.',
+    title: 'ToDo App',
+    description: 'This is a basic to-do app with checklists.',
     imageUrl: 'https://placehold.co/400x300.png',
     imageHint: 'mobile productivity',
     liveLink: '#',

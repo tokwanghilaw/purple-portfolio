@@ -14,7 +14,7 @@ export default function AboutMeSection({ id }: AboutMeSectionProps) {
           <div className="md:w-1/3 flex justify-center">
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-xl border-4 border-primary">
               <Image
-                src="/home/user/studio/images/belly.png"
+                src="/images/belly.png"
                 alt="Profile Picture"
                 data-ai-hint="profile person"
                 width={256}

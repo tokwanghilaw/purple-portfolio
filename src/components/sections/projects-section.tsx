@@ -35,7 +35,7 @@ export default function ProjectsSection({ id, title, projects, icon }: ProjectsS
                 <CardHeader>
                   <div className="aspect-[4/3] relative w-full overflow-hidden rounded-t-md">
                     <Image
-                      src={project.imageUrl}
+                      src={`/images/${project.imageUrl}`}
                       alt={project.title}
                       data-ai-hint={project.imageHint}
                       fill
